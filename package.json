@@ -1,0 +1,40 @@
+{
+  "name": "meo-forkcy-logger",
+  "description": "A flexible logger and banner printer for CLI bots using colored console output.",
+  "keywords": [
+    "console",
+    "meo-forkcy",
+    "meo-forkcy-logger",
+    "logger",
+    "log",
+    "banner",
+    "ansi",
+    "print",
+    "blackcatsyndicate"
+  ],
+  "homepage": "https://github.com/meo-forkcy/meo-forkcy-logger#readme",
+  "bugs": {
+    "url": "https://github.com/meo-forkcy/meo-forkcy-logger/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/meo-forkcy/meo-forkcy-logger.git"
+  },
+  "version": "1.0.0",
+  "type": "commonjs",
+  "license": "MIT",
+  "author": "meo-forkcy",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "lint": "eslint .",
+    "lint:fix": "eslint . --fix",
+    "example": "node examples/index.js"
+  },
+  "dependencies": {
+    "meo-forkcy-colors": "^1.0.9",
+    "meo-forkcy-utils": "^1.0.3"
+  }
+}
