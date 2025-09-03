@@ -31,6 +31,7 @@ npm install meo-forkcy-logger
 const { Logger } = require("meo-forkcy-logger");
 
 const logger = new Logger("my-bot");
+logger.log("Operation failed", "error");
 logger.log("user123", "Operation completed", "success");
 
 const loggerWithDefault = new Logger("my-bot", "DefaultWallet");
@@ -68,14 +69,19 @@ npm run example
 ## 📁 File Structure
 
 ```
-├── examples/
+├── constants/                # Holds shared constants (faces, icons, etc.)
+│   └── index.js              # Exports FACES and other shared constants
+│
+├── examples/                 # Usage examples
 │   ├── banner.js
 │   └── logger.js
-├── lib/
+│
+├── lib/                      # Core library logic
 │   ├── logger.js
 │   └── banner.js
+│
 ├── .gitignore
-├── index.js
+├── index.js                  # Package entry point, re-exports from lib/
 ├── LICENSE
 ├── package.json
 ├── package-lock.json

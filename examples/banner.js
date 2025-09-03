@@ -10,7 +10,25 @@ const CONFIGS = {
   howManyAccountsRunInOneTime: 36,
   doTasks: true,
   playGames: true,
-  referralCodes: [],
+  referralCodes: [
+    "code1",
+    "code2",
+    "code3",
+    "code4",
+    "code5",
+    "code6",
+    "code7",
+    "code8",
+    "code9",
+    "code10",
+    "code11",
+    "code12",
+    "code13",
+    {
+      code: "code14",
+      description: "Description for code14",
+    },
+  ],
 };
 
 console.log("👉 Demo: printMergedTableWithBanner");

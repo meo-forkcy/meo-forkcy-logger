@@ -7,6 +7,9 @@ console.log("👉 Demo: Logger");
 // Create logger with bot name
 const logger = new Logger("meo-forkcy-logger");
 
+// Without default account
+logger.log("Operation completed!", "done");
+
 // With explicit account ID
 logger.log("user123", "Operation completed!", "done");
 logger.log("user234", "Retrying connection...", "retry");
