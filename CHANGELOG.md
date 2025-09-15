@@ -1,5 +1,15 @@
 # 📜 CHANGELOG
 
+## [1.0.2] - 2025-09-15
+
+### Added
+
+- `stop()` and `resume()` methods to `Logger` to control logging dynamically
+
+### Changed
+
+- `Logger.log()` now respects the `stopped` flag and will not output logs when stopped
+
 ## [1.0.1] - 2025-09-04
 
 ### Added
