@@ -34,7 +34,7 @@
     "example": "node examples/index.js"
   },
   "dependencies": {
-    "meo-forkcy-colors": "^1.0.9",
-    "meo-forkcy-utils": "^1.0.3"
+    "meo-forkcy-colors": "lastest",
+    "meo-forkcy-utils": "latest"
   }
 }
