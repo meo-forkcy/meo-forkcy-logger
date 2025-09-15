@@ -1,5 +1,16 @@
 # 📜 CHANGELOG
 
+## [1.0.3] - 2025-09-15
+
+### Added
+
+- New `countdown()` utility function with multiple animation styles:
+  - `"spinner"`, `"dots"`, `"hearts"`, `"animeFace"`, `"sparkle"`
+- Example script `examples/countdown.js`
+- Documentation and README update for countdown usage
+
+---
+
 ## [1.0.2] - 2025-09-15
 
 ### Added
@@ -9,6 +20,8 @@
 ### Changed
 
 - `Logger.log()` now respects the `stopped` flag and will not output logs when stopped
+
+---
 
 ## [1.0.1] - 2025-09-04
 

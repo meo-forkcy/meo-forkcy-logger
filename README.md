@@ -73,12 +73,15 @@ npm run example
 │   └── index.js              # Exports FACES and other shared constants
 │
 ├── examples/                 # Usage examples
+│   ├── index.js
 │   ├── banner.js
-│   └── logger.js
+│   ├── logger.js
+|   └── countdown.js
 │
 ├── lib/                      # Core library logic
 │   ├── logger.js
-│   └── banner.js
+│   ├── banner.js
+|   └── countdown.js
 │
 ├── .gitignore
 ├── index.js                  # Package entry point, re-exports from lib/
@@ -109,6 +112,18 @@ printMergedTableWithBanner(
   configObject: Record<string, any>,
   ...colors: string[]
 );
+```
+
+### countdown
+
+```ts
+countdown(
+  sec: number,
+  options?: {
+    fps?: number;   // Frames per second (default: 30)
+    style?: string; // Animation style (default: "spinner")
+  }
+): Promise<void>;
 ```
 
 ---
