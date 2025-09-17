@@ -1,5 +1,11 @@
 # 📜 CHANGELOG
 
+## [1.0.4] - 2025-09-15
+
+### Added
+
+- `clearConsole` to `printMergedTableWithBanner`
+
 ## [1.0.3] - 2025-09-15
 
 ### Added

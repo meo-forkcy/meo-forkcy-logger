@@ -20,7 +20,7 @@
     "type": "git",
     "url": "git+https://github.com/meo-forkcy/meo-forkcy-logger.git"
   },
-  "version": "1.0.3",
+  "version": "1.0.4",
   "type": "commonjs",
   "license": "MIT",
   "author": "meo-forkcy",
