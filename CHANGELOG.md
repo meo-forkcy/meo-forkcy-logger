@@ -1,5 +1,11 @@
 # 📜 CHANGELOG
 
+## [1.0.6] - 2025-10-19
+
+### Update
+
+- Added alias for `logger.js`.
+
 ## [1.0.5] - 2025-09-15
 
 ### Update
