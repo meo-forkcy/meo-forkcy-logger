@@ -26,6 +26,8 @@ logger.log("user987", "Important notice", "announce");
 logger.log("user876", "Processing request...", "pending");
 logger.log("user654", "Task completed!", "success");
 logger.log("user432", "Check configuration!", "warning");
+logger.log(`Wait for me...`, "pd");
+logger.log(`This is a notification!`, "nt");
 
 // With default account
 const logger2 = new Logger("meo-forkcy-logger_2", "Account 1");

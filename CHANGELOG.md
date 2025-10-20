@@ -1,5 +1,11 @@
 # 📜 CHANGELOG
 
+## [1.0.7] - 2025-10-20
+
+### Update
+
+- Fix alias error in `logger.js`
+
 ## [1.0.6] - 2025-10-19
 
 ### Update
